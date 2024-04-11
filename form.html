@@ -26,7 +26,18 @@
         <div id="chooseMealForm" class="meal-form">
             <!-- Form for choosing a meal -->
             <div class="form-container">
-                <!-- Your form elements for choosing a meal -->
+                <form>
+                    <label for="vegNonVeg">Veg/Non-Veg:</label>
+                    <select id="vegNonVeg" name="vegNonVeg">
+                        <option value="veg">Veg</option>
+                        <option value="nonveg">Non-Veg</option>
+                    </select>
+                    <label for="cuisine">Cuisine:</label>
+                    <input type="text" id="cuisine" name="cuisine">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location">
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
         
