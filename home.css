@@ -12,7 +12,6 @@ body {
     background-image: url('food_background-transformed.png'); /* Replace 'background-image.jpg' with your background image */
     background-size: cover;
     z-index: -1;
-    transform: translateY(-50%);
   }
   
   .container {
