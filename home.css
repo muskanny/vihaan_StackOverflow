@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    position: absolute;
+    top: 50%; /* Start from the middle of the height of the webpage */
+    left: 0;
+    width: 100%;
+    height: 50%; /* Set the height to 50% of the viewport height */
+    background-image: url('food_background-transformed.png'); /* Replace 'background-image.jpg' with your background image */
+    background-size: cover;
+    z-index: -1;
+    transform: translateY(-50%);
+  }
+  
+  .container {
+    height: 2000px; /* Ensure enough scrollable height for demonstration */
+    position: relative;
+  }
+  
+  .header {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
+  }
+  
+  .content {
+    padding-top: 150px; /* Adjust the top padding to create space for the header and background */
+  }
+  
+  .ship {
+    position: absolute;
+    top: 50%; /* Adjust the initial position as needed */
+    left: 50%; /* Adjust the initial position as needed */
+    transform: translate(-50%, -50%);
+    background-image: url('burger.png'); /* Replace 'ship-image.jpg' with your ship image */
+    width: 200px; /* Adjust ship width */
+    height: 200px; /* Adjust ship height */
+    background-size: cover;
+  }
+  
+  .text {
+    position: absolute;
+    top: 20%; /* Adjust the initial position as needed */
+    left: 50%; /* Adjust the initial position as needed */
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
